@@ -64,9 +64,63 @@ let anagrams = ["кабан", "банка", "рано", "нора", "сосна"
 // console.log('flatResult', flatResult);
 
 //9 .flatMap()
-let flatMapResult = [...intArray].flatMap((i) => [i * 2]);
+// let flatMapResult = [...intArray].flatMap((i) => [i * 2]);
 //expected output
 //[2, 4, 6, 8, 10]
-console.log("flatMapResult", flatMapResult);
+// console.log("flatMapResult", flatMapResult);
 
-//10 new change
+//10 .forEach()
+//expected output
+//console.log(i)
+// [...intArray].forEach(i => console.log(i))
+
+//11 Array.from()
+// let ArrayFromResult = Array.from('123');
+//expected output
+// console.log("ArrayFromResult", ArrayFromResult)
+
+//12 .includes()
+// let includesResult = [...intArray].includes(2);
+//expected output
+//true
+// console.log("includesResult", includesResult)
+
+//13 .indexOf()
+// let indexOfResult = [...intArray].indexOf(2);
+//expected output
+//1
+// console.log("indexOfResult", indexOfResult)
+
+//14 Array.isArray()
+// let isArrayResult = Array.isArray([1, 2, 3]);
+//expected output
+//true
+// console.log("isArrayResult", isArrayResult)
+
+//15 .join()
+// let joinResult = [...intArray].join('+');
+//expected output
+//true
+// console.log("joinResult", joinResult)
+
+//16 .keys()
+// const iterator = [...intArray].keys();
+//expected output
+//0, 1, 2, 3, 4
+// for (const key of iterator) {
+//   console.log(key);
+// }
+
+//17 .lastIndexOf()
+// let lastIndexOfResult = [1, 2 , 3, 2, 2, 2].lastIndexOf(2);
+//expected output
+//5
+// console.log("lastIndexOfResult", lastIndexOfResult)
+
+//18 .map()
+// let mapResult = [...intArray].map(i => i * 2);
+//expected output
+//[2, 4, 6, 8, 10]
+// console.log("mapResult", mapResult)
+
+//19
