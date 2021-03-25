@@ -69,4 +69,4 @@ let flatMapResult = [...intArray].flatMap((i) => [i * 2]);
 //[2, 4, 6, 8, 10]
 console.log("flatMapResult", flatMapResult);
 
-//10
+//10 new change
