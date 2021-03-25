@@ -123,4 +123,44 @@ let anagrams = ["кабан", "банка", "рано", "нора", "сосна"
 //[2, 4, 6, 8, 10]
 // console.log("mapResult", mapResult)
 
-//19
+//19 Array.of()
+// let ArrayOfResult = Array.of(1, 2, 3);
+//expected output
+//[1, 2, 3]
+// console.log("ArrayOfResult", ArrayOfResult);
+
+//20 .unshift()
+//добавляет в начало
+// let unshiftArray = [1, 2, 3];
+// unshiftArray.unshift(0);
+// console.log("unshiftArray", unshiftArray);
+
+//21 .push()
+//добавляет в конец
+// let pushArray = [0, 1, 2];
+// pushArray.push(3);
+// console.log("pushArray", pushArray);
+
+//22 .shift()
+//удаляет первый
+// let shiftArray = [0, 0, 1, 2, 3];
+// shiftArray.shift();
+// console.log("shiftArray", shiftArray);
+
+//23 .pop()
+//удаляет последний
+// let popArray = [0, 1, 2, 3, 3];
+// popArray.pop();
+// console.log("popArray", popArray);
+
+//24 .reverse()
+let reverseResult = [...intArray].reverse();
+//expected output
+//[5, 4, 3, 2, 1]
+console.log("reverseResult", reverseResult);
+
+//25 .slice()
+let sliceResult = [...intArray].slice(0, 2);
+//expected output
+//[1, 2]
+console.log("sliceResult", sliceResult);
